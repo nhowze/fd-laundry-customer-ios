@@ -7,16 +7,32 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		32C955671AD0E93EE125B706 /* libPods-OneSignalNotificationServiceExtension.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B23150A0A2445E28576E18B0 /* libPods-OneSignalNotificationServiceExtension.a */; };
+		5F2D323D3FE4973D9903BF4D /* libPods-DelivrmatTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A67FEB0BF6D199A9F03E1A98 /* libPods-DelivrmatTests.a */; };
+		A707EBB22F9B165954B5C9F1 /* libPods-Delivrmat.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E903149DCE226E07B6073C1 /* libPods-Delivrmat.a */; };
+		A7BE270C9A48A89C737CD5B7 /* libPods-DelivrmatUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 15CD2B583D1D5AD44D8D482F /* libPods-DelivrmatUITests.a */; };
+		B30BD68121532AD300D87CF6 /* libFlurry_9.0.0.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B3C9D64A212485F9002E4503 /* libFlurry_9.0.0.a */; };
+		B3C95ED921591560003B4657 /* NotificationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3C95ED82159155F003B4657 /* NotificationService.swift */; };
+		B3C95EDD21591560003B4657 /* OneSignalNotificationServiceExtension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = B3C95ED62159155F003B4657 /* OneSignalNotificationServiceExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		B3C9D64821248557002E4503 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B3C9D64421248374002E4503 /* SystemConfiguration.framework */; };
+		B3C9D64921248562002E4503 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B3C9D64621248380002E4503 /* Security.framework */; };
 		B3F5DE052107D39000CB7E3E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3F5DE042107D39000CB7E3E /* AppDelegate.swift */; };
 		B3F5DE072107D39000CB7E3E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3F5DE062107D39000CB7E3E /* ViewController.swift */; };
 		B3F5DE0A2107D39000CB7E3E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B3F5DE082107D39000CB7E3E /* Main.storyboard */; };
-		B3F5DE0C2107D39400CB7E3E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B3F5DE0B2107D39400CB7E3E /* Assets.xcassets */; };
 		B3F5DE0F2107D39400CB7E3E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B3F5DE0D2107D39400CB7E3E /* LaunchScreen.storyboard */; };
 		B3F5DE1A2107D39400CB7E3E /* DelivrmatTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3F5DE192107D39400CB7E3E /* DelivrmatTests.swift */; };
 		B3F5DE252107D39500CB7E3E /* DelivrmatUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3F5DE242107D39500CB7E3E /* DelivrmatUITests.swift */; };
+		B3F5DE352107DE9000CB7E3E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B3F5DE342107DE9000CB7E3E /* Images.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		B3C95EDB21591560003B4657 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B3F5DDF92107D39000CB7E3E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B3C95ED52159155F003B4657;
+			remoteInfo = OneSignalNotificationServiceExtension;
+		};
 		B3F5DE162107D39400CB7E3E /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = B3F5DDF92107D39000CB7E3E /* Project object */;
@@ -33,12 +49,46 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		B3C95EE121591560003B4657 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				B3C95EDD21591560003B4657 /* OneSignalNotificationServiceExtension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
-		B3F5DE012107D39000CB7E3E /* Delivrmat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Delivrmat.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		15CD2B583D1D5AD44D8D482F /* libPods-DelivrmatUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-DelivrmatUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1A66D3E1C911EE80A2714BD3 /* Pods-DelivrmatTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DelivrmatTests.debug.xcconfig"; path = "Target Support Files/Pods-DelivrmatTests/Pods-DelivrmatTests.debug.xcconfig"; sourceTree = "<group>"; };
+		22984A72EEE31806FFF7C868 /* Pods-DelivrmatTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DelivrmatTests.release.xcconfig"; path = "Target Support Files/Pods-DelivrmatTests/Pods-DelivrmatTests.release.xcconfig"; sourceTree = "<group>"; };
+		34891A3E453F1D18F829C9D1 /* Pods-OneSignalNotificationServiceExtension.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OneSignalNotificationServiceExtension.debug.xcconfig"; path = "Target Support Files/Pods-OneSignalNotificationServiceExtension/Pods-OneSignalNotificationServiceExtension.debug.xcconfig"; sourceTree = "<group>"; };
+		3E903149DCE226E07B6073C1 /* libPods-Delivrmat.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Delivrmat.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6BD2A8DA6F846B5E9CD9F992 /* Pods-DelivrmatUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DelivrmatUITests.release.xcconfig"; path = "Target Support Files/Pods-DelivrmatUITests/Pods-DelivrmatUITests.release.xcconfig"; sourceTree = "<group>"; };
+		73A068BD19134B5661B1E8D7 /* Pods-DelivrmatUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DelivrmatUITests.debug.xcconfig"; path = "Target Support Files/Pods-DelivrmatUITests/Pods-DelivrmatUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		84B713735757BDA4CC440813 /* Pods-OneSignalNotificationServiceExtension.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OneSignalNotificationServiceExtension.release.xcconfig"; path = "Target Support Files/Pods-OneSignalNotificationServiceExtension/Pods-OneSignalNotificationServiceExtension.release.xcconfig"; sourceTree = "<group>"; };
+		8865050BC3AEDB6FEB048DF7 /* Pods-Delivrmat.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Delivrmat.release.xcconfig"; path = "Target Support Files/Pods-Delivrmat/Pods-Delivrmat.release.xcconfig"; sourceTree = "<group>"; };
+		A2963DE5AC7D51C6428ABA1F /* Pods-Delivrmat.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Delivrmat.debug.xcconfig"; path = "Target Support Files/Pods-Delivrmat/Pods-Delivrmat.debug.xcconfig"; sourceTree = "<group>"; };
+		A67FEB0BF6D199A9F03E1A98 /* libPods-DelivrmatTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-DelivrmatTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B23150A0A2445E28576E18B0 /* libPods-OneSignalNotificationServiceExtension.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-OneSignalNotificationServiceExtension.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B33DFEEE21246AC9000ED065 /* Flurry */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Flurry; sourceTree = "<group>"; };
+		B37D3CD6213F1AC60022A63E /* Delivrmat.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Delivrmat.entitlements; sourceTree = "<group>"; };
+		B3C95ED62159155F003B4657 /* OneSignalNotificationServiceExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = OneSignalNotificationServiceExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		B3C95ED82159155F003B4657 /* NotificationService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationService.swift; sourceTree = "<group>"; };
+		B3C95EDA21591560003B4657 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B3C9D64321248294002E4503 /* bridge-header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "bridge-header.h"; sourceTree = "<group>"; };
+		B3C9D64421248374002E4503 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		B3C9D64621248380002E4503 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		B3C9D64A212485F9002E4503 /* libFlurry_9.0.0.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libFlurry_9.0.0.a; path = Delivrmat/Flurry/Flurry/libFlurry_9.0.0.a; sourceTree = "<group>"; };
+		B3F5DE012107D39000CB7E3E /* FD Laundry.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "FD Laundry.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B3F5DE042107D39000CB7E3E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B3F5DE062107D39000CB7E3E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		B3F5DE092107D39000CB7E3E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		B3F5DE0B2107D39400CB7E3E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B3F5DE0E2107D39400CB7E3E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B3F5DE102107D39400CB7E3E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B3F5DE152107D39400CB7E3E /* DelivrmatTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DelivrmatTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -47,13 +97,26 @@
 		B3F5DE202107D39400CB7E3E /* DelivrmatUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DelivrmatUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B3F5DE242107D39500CB7E3E /* DelivrmatUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DelivrmatUITests.swift; sourceTree = "<group>"; };
 		B3F5DE262107D39500CB7E3E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B3F5DE342107DE9000CB7E3E /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		B3C95ED32159155F003B4657 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				32C955671AD0E93EE125B706 /* libPods-OneSignalNotificationServiceExtension.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		B3F5DDFE2107D39000CB7E3E /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B3C9D64921248562002E4503 /* Security.framework in Frameworks */,
+				B30BD68121532AD300D87CF6 /* libFlurry_9.0.0.a in Frameworks */,
+				B3C9D64821248557002E4503 /* SystemConfiguration.framework in Frameworks */,
+				A707EBB22F9B165954B5C9F1 /* libPods-Delivrmat.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +124,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5F2D323D3FE4973D9903BF4D /* libPods-DelivrmatTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,28 +132,71 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A7BE270C9A48A89C737CD5B7 /* libPods-DelivrmatUITests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		329A051247EA9205B5C3AF4B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A2963DE5AC7D51C6428ABA1F /* Pods-Delivrmat.debug.xcconfig */,
+				8865050BC3AEDB6FEB048DF7 /* Pods-Delivrmat.release.xcconfig */,
+				1A66D3E1C911EE80A2714BD3 /* Pods-DelivrmatTests.debug.xcconfig */,
+				22984A72EEE31806FFF7C868 /* Pods-DelivrmatTests.release.xcconfig */,
+				73A068BD19134B5661B1E8D7 /* Pods-DelivrmatUITests.debug.xcconfig */,
+				6BD2A8DA6F846B5E9CD9F992 /* Pods-DelivrmatUITests.release.xcconfig */,
+				34891A3E453F1D18F829C9D1 /* Pods-OneSignalNotificationServiceExtension.debug.xcconfig */,
+				84B713735757BDA4CC440813 /* Pods-OneSignalNotificationServiceExtension.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		881C5DECD7C194B7B5CFC4E9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B3C9D64A212485F9002E4503 /* libFlurry_9.0.0.a */,
+				B3C9D64621248380002E4503 /* Security.framework */,
+				B3C9D64421248374002E4503 /* SystemConfiguration.framework */,
+				3E903149DCE226E07B6073C1 /* libPods-Delivrmat.a */,
+				A67FEB0BF6D199A9F03E1A98 /* libPods-DelivrmatTests.a */,
+				15CD2B583D1D5AD44D8D482F /* libPods-DelivrmatUITests.a */,
+				B23150A0A2445E28576E18B0 /* libPods-OneSignalNotificationServiceExtension.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B3C95ED72159155F003B4657 /* OneSignalNotificationServiceExtension */ = {
+			isa = PBXGroup;
+			children = (
+				B3C95ED82159155F003B4657 /* NotificationService.swift */,
+				B3C95EDA21591560003B4657 /* Info.plist */,
+			);
+			path = OneSignalNotificationServiceExtension;
+			sourceTree = "<group>";
+		};
 		B3F5DDF82107D39000CB7E3E = {
 			isa = PBXGroup;
 			children = (
 				B3F5DE032107D39000CB7E3E /* Delivrmat */,
 				B3F5DE182107D39400CB7E3E /* DelivrmatTests */,
 				B3F5DE232107D39500CB7E3E /* DelivrmatUITests */,
+				B3C95ED72159155F003B4657 /* OneSignalNotificationServiceExtension */,
 				B3F5DE022107D39000CB7E3E /* Products */,
+				881C5DECD7C194B7B5CFC4E9 /* Frameworks */,
+				329A051247EA9205B5C3AF4B /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
 		B3F5DE022107D39000CB7E3E /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				B3F5DE012107D39000CB7E3E /* Delivrmat.app */,
+				B3F5DE012107D39000CB7E3E /* FD Laundry.app */,
 				B3F5DE152107D39400CB7E3E /* DelivrmatTests.xctest */,
 				B3F5DE202107D39400CB7E3E /* DelivrmatUITests.xctest */,
+				B3C95ED62159155F003B4657 /* OneSignalNotificationServiceExtension.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -97,12 +204,15 @@
 		B3F5DE032107D39000CB7E3E /* Delivrmat */ = {
 			isa = PBXGroup;
 			children = (
+				B37D3CD6213F1AC60022A63E /* Delivrmat.entitlements */,
 				B3F5DE042107D39000CB7E3E /* AppDelegate.swift */,
+				B33DFEEE21246AC9000ED065 /* Flurry */,
 				B3F5DE062107D39000CB7E3E /* ViewController.swift */,
 				B3F5DE082107D39000CB7E3E /* Main.storyboard */,
-				B3F5DE0B2107D39400CB7E3E /* Assets.xcassets */,
 				B3F5DE0D2107D39400CB7E3E /* LaunchScreen.storyboard */,
 				B3F5DE102107D39400CB7E3E /* Info.plist */,
+				B3F5DE342107DE9000CB7E3E /* Images.xcassets */,
+				B3C9D64321248294002E4503 /* bridge-header.h */,
 			);
 			path = Delivrmat;
 			sourceTree = "<group>";
@@ -128,27 +238,49 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		B3F5DE002107D39000CB7E3E /* Delivrmat */ = {
+		B3C95ED52159155F003B4657 /* OneSignalNotificationServiceExtension */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = B3F5DE292107D39500CB7E3E /* Build configuration list for PBXNativeTarget "Delivrmat" */;
+			buildConfigurationList = B3C95EDE21591560003B4657 /* Build configuration list for PBXNativeTarget "OneSignalNotificationServiceExtension" */;
 			buildPhases = (
-				B3F5DDFD2107D39000CB7E3E /* Sources */,
-				B3F5DDFE2107D39000CB7E3E /* Frameworks */,
-				B3F5DDFF2107D39000CB7E3E /* Resources */,
+				286997823CF843123EB0B8DF /* [CP] Check Pods Manifest.lock */,
+				B3C95ED22159155F003B4657 /* Sources */,
+				B3C95ED32159155F003B4657 /* Frameworks */,
+				B3C95ED42159155F003B4657 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
+			name = OneSignalNotificationServiceExtension;
+			productName = OneSignalNotificationServiceExtension;
+			productReference = B3C95ED62159155F003B4657 /* OneSignalNotificationServiceExtension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		B3F5DE002107D39000CB7E3E /* Delivrmat */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B3F5DE292107D39500CB7E3E /* Build configuration list for PBXNativeTarget "Delivrmat" */;
+			buildPhases = (
+				9C0D61CA738E7AE868F71873 /* [CP] Check Pods Manifest.lock */,
+				B3F5DDFD2107D39000CB7E3E /* Sources */,
+				B3F5DDFE2107D39000CB7E3E /* Frameworks */,
+				B3F5DDFF2107D39000CB7E3E /* Resources */,
+				B3C95EE121591560003B4657 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B3C95EDC21591560003B4657 /* PBXTargetDependency */,
+			);
 			name = Delivrmat;
 			productName = Delivrmat;
-			productReference = B3F5DE012107D39000CB7E3E /* Delivrmat.app */;
+			productReference = B3F5DE012107D39000CB7E3E /* FD Laundry.app */;
 			productType = "com.apple.product-type.application";
 		};
 		B3F5DE142107D39400CB7E3E /* DelivrmatTests */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = B3F5DE2C2107D39500CB7E3E /* Build configuration list for PBXNativeTarget "DelivrmatTests" */;
 			buildPhases = (
+				4479B55AE2DCE7E9EE3ABE85 /* [CP] Check Pods Manifest.lock */,
 				B3F5DE112107D39400CB7E3E /* Sources */,
 				B3F5DE122107D39400CB7E3E /* Frameworks */,
 				B3F5DE132107D39400CB7E3E /* Resources */,
@@ -167,6 +299,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B3F5DE2F2107D39500CB7E3E /* Build configuration list for PBXNativeTarget "DelivrmatUITests" */;
 			buildPhases = (
+				60C96F9538235412ABA157F0 /* [CP] Check Pods Manifest.lock */,
 				B3F5DE1C2107D39400CB7E3E /* Sources */,
 				B3F5DE1D2107D39400CB7E3E /* Frameworks */,
 				B3F5DE1E2107D39400CB7E3E /* Resources */,
@@ -187,12 +320,23 @@
 		B3F5DDF92107D39000CB7E3E /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 0940;
+				LastSwiftUpdateCheck = 1000;
 				LastUpgradeCheck = 0940;
 				ORGANIZATIONNAME = "ICI Technologies";
 				TargetAttributes = {
+					B3C95ED52159155F003B4657 = {
+						CreatedOnToolsVersion = 10.0;
+					};
 					B3F5DE002107D39000CB7E3E = {
 						CreatedOnToolsVersion = 9.4.1;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+							com.apple.Push = {
+								enabled = 1;
+							};
+						};
 					};
 					B3F5DE142107D39400CB7E3E = {
 						CreatedOnToolsVersion = 9.4.1;
@@ -220,17 +364,25 @@
 				B3F5DE002107D39000CB7E3E /* Delivrmat */,
 				B3F5DE142107D39400CB7E3E /* DelivrmatTests */,
 				B3F5DE1F2107D39400CB7E3E /* DelivrmatUITests */,
+				B3C95ED52159155F003B4657 /* OneSignalNotificationServiceExtension */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		B3C95ED42159155F003B4657 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		B3F5DDFF2107D39000CB7E3E /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B3F5DE352107DE9000CB7E3E /* Images.xcassets in Resources */,
 				B3F5DE0F2107D39400CB7E3E /* LaunchScreen.storyboard in Resources */,
-				B3F5DE0C2107D39400CB7E3E /* Assets.xcassets in Resources */,
 				B3F5DE0A2107D39000CB7E3E /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -251,7 +403,106 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		286997823CF843123EB0B8DF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-OneSignalNotificationServiceExtension-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4479B55AE2DCE7E9EE3ABE85 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DelivrmatTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		60C96F9538235412ABA157F0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DelivrmatUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9C0D61CA738E7AE868F71873 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Delivrmat-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
+		B3C95ED22159155F003B4657 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B3C95ED921591560003B4657 /* NotificationService.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		B3F5DDFD2107D39000CB7E3E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -280,6 +531,11 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		B3C95EDC21591560003B4657 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B3C95ED52159155F003B4657 /* OneSignalNotificationServiceExtension */;
+			targetProxy = B3C95EDB21591560003B4657 /* PBXContainerItemProxy */;
+		};
 		B3F5DE172107D39400CB7E3E /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = B3F5DE002107D39000CB7E3E /* Delivrmat */;
@@ -312,6 +568,51 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		B3C95EDF21591560003B4657 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 34891A3E453F1D18F829C9D1 /* Pods-OneSignalNotificationServiceExtension.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = SGX6S5JS57;
+				INFOPLIST_FILE = OneSignalNotificationServiceExtension/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = "ICI-Technologies.Delivrmat.OneSignalNotificationServiceExtension";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B3C95EE021591560003B4657 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 84B713735757BDA4CC440813 /* Pods-OneSignalNotificationServiceExtension.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = SGX6S5JS57;
+				INFOPLIST_FILE = OneSignalNotificationServiceExtension/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = "ICI-Technologies.Delivrmat.OneSignalNotificationServiceExtension";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 		B3F5DE272107D39500CB7E3E /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -428,42 +729,75 @@
 		};
 		B3F5DE2A2107D39500CB7E3E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A2963DE5AC7D51C6428ABA1F /* Pods-Delivrmat.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_ENTITLEMENTS = Delivrmat/Delivrmat.entitlements;
 				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 3.2.2;
 				DEVELOPMENT_TEAM = SGX6S5JS57;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = Delivrmat/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(PROJECT_DIR)/Delivrmat/Flurry/Flurry",
+					"$(inherited)",
+				);
+				MARKETING_VERSION = 3.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "ICI-Technologies.Delivrmat";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "FD Laundry";
+				SWIFT_OBJC_BRIDGING_HEADER = "Delivrmat/bridge-header.h";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		B3F5DE2B2107D39500CB7E3E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8865050BC3AEDB6FEB048DF7 /* Pods-Delivrmat.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_ENTITLEMENTS = Delivrmat/Delivrmat.entitlements;
 				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 3.2.2;
 				DEVELOPMENT_TEAM = SGX6S5JS57;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = Delivrmat/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(PROJECT_DIR)/Delivrmat/Flurry/Flurry",
+					"$(inherited)",
+				);
+				MARKETING_VERSION = 3.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "ICI-Technologies.Delivrmat";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "FD Laundry";
+				SWIFT_OBJC_BRIDGING_HEADER = "Delivrmat/bridge-header.h";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
 		B3F5DE2D2107D39500CB7E3E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1A66D3E1C911EE80A2714BD3 /* Pods-DelivrmatTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -485,6 +819,7 @@
 		};
 		B3F5DE2E2107D39500CB7E3E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 22984A72EEE31806FFF7C868 /* Pods-DelivrmatTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -506,6 +841,7 @@
 		};
 		B3F5DE302107D39500CB7E3E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 73A068BD19134B5661B1E8D7 /* Pods-DelivrmatUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -526,6 +862,7 @@
 		};
 		B3F5DE312107D39500CB7E3E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6BD2A8DA6F846B5E9CD9F992 /* Pods-DelivrmatUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -547,6 +884,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		B3C95EDE21591560003B4657 /* Build configuration list for PBXNativeTarget "OneSignalNotificationServiceExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B3C95EDF21591560003B4657 /* Debug */,
+				B3C95EE021591560003B4657 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		B3F5DDFC2107D39000CB7E3E /* Build configuration list for PBXProject "Delivrmat" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
